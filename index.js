@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 const corsOrigins = {
-  origin: "http://localhost:3000",
+  origin: "https://chatzosma.netlify.app",
   credentials: true,
   optionSuccessStatus: 200,
 };
